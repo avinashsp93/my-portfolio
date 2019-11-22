@@ -1,0 +1,54 @@
+/* Only properties of Bulma to be overridden is written here */
+
+
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    background-color: #F0BC54;
+}
+
+.navbar-menu {
+    margin: 0px 100px;
+}
+
+.navbar-item img {
+    position: relative;
+    max-height: 3.25rem;
+}
+
+a.navbar-item:hover {
+    background-color: inherit;
+    color: #000;
+}
+
+#cover {
+    margin-top: 70px;
+    min-height: 900px;
+}
+
+#cover img{
+    position: absolute;
+    margin-top: -70px;
+    z-index: -5;
+}
+#bio-self {
+    width: 400px;
+    padding-top: 50px;
+}
+
+#bio-self p {
+    padding-top: 30px;
+}
+
+#bio-self a {
+    margin-top: 100px;
+    border-radius: 40px;
+}
+
+#bio-self a:hover {
+    color: #000;
+}
