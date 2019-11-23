@@ -27,3 +27,10 @@ $("#anchor-activities span").click(function() {
         {scrollTop: $("#activities").offset().top}, 1500
     )
 });
+
+$("#bio-self a.contact-me span").click(function() {
+    console.log($("#cover").offset());
+    $('html, body').animate(
+        {scrollTop: $("#contact").offset().top}, 1500
+    )
+});

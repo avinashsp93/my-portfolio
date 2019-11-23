@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -44,7 +45,7 @@
         <img src="./img/cover/avi_img_1.jpg" alt="">
         <div class="container">
             <div id="bio-self" class="has-text-black"> 
-                <h1 class="is-size-1">Avinash Sorab</h1>
+                <h1 class="is-size-1 is-uppercase has-text-weight-medium">Avinash Sorab</h1>
                 <h3 class="is-size-4 has-text-grey">Software Engineer | Web Developer | Sports Enthusiast</h3>
                 <p class="is-size-6">
                         I'm a programmer by job, sportslover by heart.
@@ -54,17 +55,18 @@
                         I've been taking table tennis lessons and love playing tournaments. 
                         I also like playing chess online, solving chess puzzles.
                 </p>
-                <a href="" class="button is-warning is-medium"><b>Contact Me</b></a>
-                <a href="" class="button is-warning is-medium button-anti"><b>My Resumé</b></a>
+                <a class="button is-warning is-medium contact-me"><b><span>Contact Me</span></b></a>
+                <a target="_blank" href="https://drive.google.com/file/d/1WgwaW_-U-bvIx1v6ezyEfJ-xuRiKHizI/view?usp=sharing" class="button is-warning is-medium"><b><span>My Resumé</span></b></a>
             </div>
         </div>
     </div>
     <div id="skills">
         <section class="hero is-medium is-dark is-bold">
             <div class="hero-body">
-                <h1 class="title">
+                <h1 class="title is-uppercase is-size-2">
                     Skill Sets
                 </h1>
+                <br>
                 <h2 class="subtitle">
                     Programming Languages, Technologies and Frameworks that
                     I've been learning and have experience in.
@@ -166,14 +168,18 @@
                                 <article class="tile is-child notification box">
                                     <p class="title">Tools</p>
                                     <br>
-                                    <br>
+                                    <p class="subtitle">Node Package Manager</p>
                                     <p class="subtitle">Microsoft Office</p>
+                                    <p class="subtitle">Visual Studio Code</p>
                                     <p class="subtitle">Firebug</p>
                                     <p class="subtitle">Perfect Pixel</p>
+                                    <p class="subtitle">Bootstrap</p>
+                                    <p class="subtitle">Bulma</p>
                                     <p class="subtitle">Google Cloud Storage</p>
                                     <p class="subtitle">BigQuery</p>
                                     <p class="subtitle">RequireJS</p>
                                     <p class="subtitle">JSX</p>
+                                    <p class="subtitle">Latex</p>
                                 </article>
                             </div>
                         </div>
@@ -185,33 +191,90 @@
     <div id="projects">
         <section class="hero is-medium is-dark is-bold">
             <div class="hero-body">
-                <h1 class="title">
+                <h1 class="title is-uppercase is-size-2">
                     My works
                 </h1>
+                <br>
                 <h2 class="subtitle">
                     Projects that I've worked on as a full timer, as a part-time worker, as hobby.
                 </h2>
             </div>
         </section>
         <div class="container">
-            
+            <div id="project-1">
+                <h1 class="is-size-1 is-center has-text-centered is-uppercase">Flight Data Monitoring</h1>
+                <hr>
+                <p class="is-size-6 has-text-centered">
+                    A program started by SIU Carbondale Aviation Flights and Management Team to analyze
+                    and detect hard landing and near miss and many other events in flights in a better way 
+                    using a web based tool so that students who fly the planes can be graded more accurately.
+                </p>
+                <div class="has-text-centered">
+                    <a href="https://github.com/avinashsp93/siu-aviation-data-monitoring" target="_blank" class="button is-warning is-medium"><b>More on GitHub</b></a>
+                    <a href="https://avinashsp93.github.io/siu-aviation-data-monitoring-client/" target="_blank" class="button is-warning is-medium"><b>Watch it Live</b></a>
+                </div>
+            </div>
+            <div id="project-2">
+                <h1 class="is-size-1 is-center has-text-centered is-uppercase">Checkout Redesign</h1>
+                <hr>
+                <p class="is-size-6 has-text-centered">
+                        The project was started by Apple with the goal of making the User Interface of their website 
+                        faster, easier and feature rich. The merchandize pages were designed using CanJS, an opensource 
+                        JavaScript Framework and the transaction pages using CoherentJS, an Apple designed JS Framework.
+                        It was later proposed to redesign various transaction pages such as Checkout, Shipping, Payment, 
+                        Confirmation using the latest web technologies like JSX and EcmaScript6.
+                </p>
+                <div class="has-text-centered">
+                    <a class="button is-warning is-medium disabled" disabled><b>More on GitHub</b></a>
+                    <a href="https://www.apple.com/checkout" target="_blank" class="button is-warning is-medium"><b>Watch it Live</b></a>
+                </div>
+            </div>
         </div>
     </div>
     <div id="activities">
         <section class="hero is-medium is-dark is-bold">
             <div class="hero-body">
-                <h1 class="title">
+                <h1 class="title is-uppercase is-size-2">
                     Activities
                 </h1>
+                <br>
                 <h2 class="subtitle">
                     Sports that I'm good and and would love to learn and improving more in.
                 </h2>
             </div>
         </section>
         <div class="container">
-            
+            <h2 class="is-size-1">Section under construction</h2>
         </div>
     </div>
+    <div id="contact">
+        <section class="hero is-medium is-dark is-bold">
+            <div class="hero-body">
+                <h1 class="title is-uppercase is-size-2">
+                    Let's create something great
+                </h1>
+                <br>
+                <p class="subtitle">
+                    Feel free to share your words, if you have any cool project to work on,
+                    Email me at avinashsp93@gmail.com
+                </p>
+                <button class="button is-large">
+                    <i class="fa fa-paper-plane"></i>
+                        &nbsp;&nbsp;&nbsp;
+                    <span><a href="mailto:avinashsp93@gmail.com">Mail</a></span>
+                </button>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
 </body>
 <script src="/node_modules/jquery/dist/jquery.js"></script>
 <script src="./js/main.js"></script>
