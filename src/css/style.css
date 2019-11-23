@@ -29,7 +29,7 @@ a.navbar-item:hover {
 
 #cover {
     margin-top: 70px;
-    min-height: 900px;
+    margin-bottom: 270px;
 }
 
 #cover img{
@@ -110,4 +110,26 @@ a.navbar-item:hover {
 #contact button a {
     color: inherit;
     text-decoration: inherit;
+}
+
+#footer {
+    min-height: 250px;
+    margin-top: 50px;
+}
+
+#footer p i {
+    margin: 20px 5px;
+}
+
+#footer p a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#footer p a i {
+    font-size: 1.25em;
+}
+
+#footer p a:hover {
+    color: #000;
 }
